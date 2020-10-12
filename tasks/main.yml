@@ -6,6 +6,6 @@
     state: present
     update_cache: yes
 
-- name: Move new html to root directory
-  command: mv ./templates/index.html /var/www/html
+# - name: Move new html to root directory
+#  command: mv ./templates/index.html /var/www/html
 
