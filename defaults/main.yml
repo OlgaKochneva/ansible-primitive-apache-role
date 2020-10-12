@@ -1,13 +1,4 @@
 ---
-apache_enablerepo: ""
 
-apache_listen_ip: "*"
-apache_listen_port: 82
-
-apache_vhosts:
-  # Additional properties:
-  # 'serveradmin, serveralias, allow_override, options, extra_parameters'.
-  - servername: "local.dev"
-    documentroot: "/var/www/html"
 
 
