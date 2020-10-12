@@ -1,0 +1,11 @@
+---
+- name: Install apache2
+  apt:
+    name:
+      - apache2
+    state: present
+    update_cache: yes
+
+- name: Move new html to root directory
+  command: mv ./templates/index.html /var/www/html
+
