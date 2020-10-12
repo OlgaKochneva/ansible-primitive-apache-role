@@ -20,5 +20,10 @@ ansible-galaxy install -fr roles/requirements.yml
 ansible-playbook -i environments/localhost/inventory playbooks/apache.yml -D
 
 ```
+5. Check on result  
+192.168.56.101 - ip addres of vm, where apache2 is installed  
+![image](https://user-images.githubusercontent.com/29632527/95781572-c73b0280-0cd6-11eb-91dd-875d555a425a.png)
+
+
 
 > Complete uninstallation of apache2 - `apt-get --purge remove apache2 --autoremove`
